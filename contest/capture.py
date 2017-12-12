@@ -458,7 +458,16 @@ class AgentRules:
 
     # Change agent type
     if next == nearest:
+      isRed = state.isOnRedTeam(agentIndex)
       agentState.isPacman = [state.isOnRedTeam(agentIndex), state.isRed(agentState.configuration)].count(True) == 1
+
+      if agentState.numCarrying > 0 and not agentState.isPacman:
+        score = agentState.numCarrying if isRed else -1*agentState.numCarrying
+        state.data.scoreChange += score
+
+        agentState.numReturned += agentState.numCarrying
+        agentState.numCarrying = 0
+
   applyAction = staticmethod( applyAction )
 
   def consume( position, state, isRed ):
@@ -466,7 +475,15 @@ class AgentRules:
     # Eat food
     if state.data.food[x][y]:
       score = -1
-      if isRed: score = 1
+      teamIndicesFunc = state.getBlueTeamIndices
+      if isRed:
+        score = 1
+        teamIndicesFunc = state.getRedTeamIndices
+
+      agents = [state.data.agentStates[agentIndex] for agentIndex in teamIndicesFunc()]
+      for agent in agents:
+        if agent.getPosition() == position:
+          agent.numCarrying += 1
       state.data.scoreChange += score
 
       state.data.food = state.data.food.copy()

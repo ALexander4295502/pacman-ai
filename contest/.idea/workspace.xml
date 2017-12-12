@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="35bcc8f2-6bed-4f90-8f88-b28d846a5319" name="Default" comment="">
       <change beforePath="" afterPath="$PROJECT_DIR$/myTeam.py" />
+      <change beforePath="$PROJECT_DIR$/capture.py" afterPath="$PROJECT_DIR$/capture.py" />
+      <change beforePath="$PROJECT_DIR$/game.py" afterPath="$PROJECT_DIR$/game.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="myTeam.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="myTeam.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/myTeam.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="355" column="34" lean-forward="false" selection-start-line="355" selection-start-column="21" selection-end-line="355" selection-end-column="34" />
+            <state relative-caret-position="446">
+              <caret line="277" column="32" lean-forward="false" selection-start-line="277" selection-start-column="32" selection-end-line="277" selection-end-column="32" />
               <folding>
                 <element signature="e#647#685#0" expanded="true" />
               </folding>
@@ -55,21 +57,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="capture.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="capture.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/capture.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="488" column="60" lean-forward="false" selection-start-line="488" selection-start-column="60" selection-end-line="488" selection-end-column="60" />
+            <state relative-caret-position="160">
+              <caret line="491" column="30" lean-forward="false" selection-start-line="491" selection-start-column="29" selection-end-line="491" selection-end-column="30" />
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mazeGenerator.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mazeGenerator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="capture_the_flag2.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/capture_the_flag2.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="game.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/game.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="529" column="24" lean-forward="true" selection-start-line="529" selection-start-column="24" selection-end-line="529" selection-end-column="24" />
+            <state relative-caret-position="-598">
+              <caret line="123" column="24" lean-forward="false" selection-start-line="123" selection-start-column="23" selection-end-line="123" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -96,13 +115,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>evaluate</find>
-      <find>isWin</find>
-      <find>getScore</find>
-      <find>print</find>
-      <find>The Red team has captured all</find>
-      <find>apply</find>
-      <find>getEnemyAgentScaredMovesRemaining</find>
       <find>draw</find>
       <find>blue</find>
       <find>debug</find>
@@ -115,13 +127,24 @@
       <find>Red team starts</find>
       <find>team starts</find>
       <find>startingIndex</find>
-      <find>starter</find>
       <find>aStarSearch</find>
       <find>numCarrying</find>
       <find>consume</find>
       <find>getDistanceProb</find>
       <find>shorte</find>
+      <find>starter</find>
       <find>numcarr</find>
+      <find>self.index</find>
+      <find>index</find>
+      <find>isOver</find>
+      <find>retreating</find>
+      <find>getBlueTeamIndices</find>
+      <find>scaredtime</find>
+      <find>offen</find>
+      <find>enemy</find>
+      <find>invader</find>
+      <find>timeout</find>
+      <find>getMaxTotalTime</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -130,6 +153,8 @@
         <option value="$PROJECT_DIR$/testTeam.py" />
         <option value="$PROJECT_DIR$/captureAgents.py" />
         <option value="$PROJECT_DIR$/expectimax.py" />
+        <option value="$PROJECT_DIR$/game.py" />
+        <option value="$PROJECT_DIR$/capture.py" />
         <option value="$PROJECT_DIR$/myTeam.py" />
       </list>
     </option>
@@ -147,7 +172,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="132" />
+    <option name="x" value="150" />
     <option name="y" value="23" />
     <option name="width" value="1396" />
     <option name="height" value="964" />
@@ -278,7 +303,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="132" y="23" width="1396" height="964" extended-state="0" />
+    <frame x="150" y="23" width="1396" height="964" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -369,14 +394,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mazeGenerator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/textDisplay.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -397,14 +414,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="112" column="24" lean-forward="true" selection-start-line="112" selection-start-column="24" selection-end-line="112" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/game.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="529" column="24" lean-forward="true" selection-start-line="529" selection-start-column="24" selection-end-line="529" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -441,21 +450,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myTeam.py">
+    <entry file="file://$PROJECT_DIR$/mazeGenerator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="355" column="34" lean-forward="false" selection-start-line="355" selection-start-column="21" selection-end-line="355" selection-end-column="34" />
-          <folding>
-            <element signature="e#647#685#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/capture_the_flag2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/capture.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="488" column="60" lean-forward="false" selection-start-line="488" selection-start-column="60" selection-end-line="488" selection-end-column="60" />
+        <state relative-caret-position="160">
+          <caret line="491" column="30" lean-forward="false" selection-start-line="491" selection-start-column="29" selection-end-line="491" selection-end-column="30" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-598">
+          <caret line="123" column="24" lean-forward="false" selection-start-line="123" selection-start-column="23" selection-end-line="123" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myTeam.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="277" column="32" lean-forward="false" selection-start-line="277" selection-start-column="32" selection-end-line="277" selection-end-column="32" />
+          <folding>
+            <element signature="e#647#685#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
