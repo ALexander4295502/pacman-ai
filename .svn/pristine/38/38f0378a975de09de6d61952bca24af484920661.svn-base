@@ -46,6 +46,7 @@ from game import Agent
 from game import reconstituteGrid
 import sys, util, types, time, random
 import keyboardAgents
+from urllib import urlopen
 
 # If you change these, you won't affect the server, so you can't cheat
 KILL_POINTS = 0
@@ -457,7 +458,16 @@ class AgentRules:
 
     # Change agent type
     if next == nearest:
+      isRed = state.isOnRedTeam(agentIndex)
       agentState.isPacman = [state.isOnRedTeam(agentIndex), state.isRed(agentState.configuration)].count(True) == 1
+
+      if agentState.numCarrying > 0 and not agentState.isPacman:
+        score = agentState.numCarrying if isRed else -1*agentState.numCarrying
+        state.data.scoreChange += score
+
+        agentState.numReturned += agentState.numCarrying
+        agentState.numCarrying = 0
+
   applyAction = staticmethod( applyAction )
 
   def consume( position, state, isRed ):
@@ -465,7 +475,15 @@ class AgentRules:
     # Eat food
     if state.data.food[x][y]:
       score = -1
-      if isRed: score = 1
+      teamIndicesFunc = state.getBlueTeamIndices
+      if isRed:
+        score = 1
+        teamIndicesFunc = state.getRedTeamIndices
+
+      agents = [state.data.agentStates[agentIndex] for agentIndex in teamIndicesFunc()]
+      for agent in agents:
+        if agent.getPosition() == position:
+          agent.numCarrying += 1
       state.data.scoreChange += score
 
       state.data.food = state.data.food.copy()
@@ -631,6 +649,9 @@ def readCommand( argv ):
                     help=default('How many episodes are training (suppresses output)'), default=0)
   parser.add_option('-c', '--catchExceptions', action='store_true', default=False,
                     help='Catch exceptions and enforce time limits')
+  parser.add_option('--frameTime', dest='frameTime', type='float',
+                    help=default('Time to delay between frames; <0 means keyboard'), default=0.1)
+
 
   options, otherjunk = parser.parse_args(argv)
   assert len(otherjunk) == 0, "Unrecognized options: " + str(otherjunk)
@@ -652,9 +673,7 @@ def readCommand( argv ):
     args['muteAgents'] = True
   else:
     import captureGraphicsDisplay
-    # Hack for agents writing to the display
-    captureGraphicsDisplay.FRAME_TIME = 0
-    args['display'] = captureGraphicsDisplay.PacmanGraphics(options.red, options.blue, options.zoom, 0, capture=True)
+    args['display'] = captureGraphicsDisplay.PacmanGraphics(options.red, options.blue, options.zoom, options.frameTime, capture=True)
     import __main__
     __main__.__dict__['_display'] = args['display']
 
@@ -668,7 +687,8 @@ def readCommand( argv ):
   if options.replay != None:
     print 'Replaying recorded game %s.' % options.replay
     import cPickle
-    recorded = cPickle.load(open(options.replay))
+    #recorded = cPickle.load(open(options.replay))
+    recorded = cPickle.load(urlopen(options.replay))
     recorded['display'] = args['display']
     replayGame(**recorded)
     sys.exit(0)
@@ -806,7 +826,7 @@ def runGames( layout, agents, display, length, numGames, record, numTraining, re
       with open('replay','wb') as f:
         f.write(g.record)
 
-  if numGames > 0:
+  if numGames > 1:
     scores = [game.state.data.score for game in games]
     redWinRate = [s > 0 for s in scores].count(True)/ float(len(scores))
     blueWinRate = [s < 0 for s in scores].count(True)/ float(len(scores))
