@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35bcc8f2-6bed-4f90-8f88-b28d846a5319" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/testTeam.py" />
       <change beforePath="$PROJECT_DIR$/Ferdie.py" afterPath="$PROJECT_DIR$/Ferdie.py" />
-      <change beforePath="$PROJECT_DIR$/capture.py" afterPath="$PROJECT_DIR$/capture.py" />
+      <change beforePath="$PROJECT_DIR$/testTeam.py" afterPath="$PROJECT_DIR$/testTeam.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,29 +18,29 @@
         <entry file="file://$PROJECT_DIR$/baselineTeam.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="162">
-              <caret line="99" column="15" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
+              <caret line="99" column="15" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Ferdie.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Ferdie.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Ferdie.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1591">
-              <caret line="272" column="49" lean-forward="false" selection-start-line="272" selection-start-column="49" selection-end-line="272" selection-end-column="49" />
+            <state relative-caret-position="479">
+              <caret line="434" column="0" lean-forward="true" selection-start-line="434" selection-start-column="0" selection-end-line="434" selection-end-column="0" />
               <folding>
-                <element signature="e#647#685#0" expanded="true" />
+                <element signature="e#409#447#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testTeam.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="testTeam.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testTeam.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="268" column="24" lean-forward="false" selection-start-line="268" selection-start-column="24" selection-end-line="268" selection-end-column="24" />
+            <state relative-caret-position="1533">
+              <caret line="343" column="54" lean-forward="false" selection-start-line="343" selection-start-column="54" selection-end-line="343" selection-end-column="54" />
               <folding>
                 <element signature="e#415#453#0" expanded="true" />
               </folding>
@@ -60,7 +59,17 @@
         <entry file="file://$PROJECT_DIR$/codename.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="6" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="generateTournamentLayouts.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/generateTournamentLayouts.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -79,18 +88,8 @@
       <file leaf-file-name="capture.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/capture.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="120" column="12" lean-forward="false" selection-start-line="120" selection-start-column="9" selection-end-line="120" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mazeGenerator.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mazeGenerator.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="171">
+              <caret line="129" column="6" lean-forward="false" selection-start-line="129" selection-start-column="6" selection-end-line="129" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -106,8 +105,8 @@
       <file leaf-file-name="game.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/game.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="107" column="7" lean-forward="true" selection-start-line="107" selection-start-column="7" selection-end-line="107" selection-end-column="7" />
+            <state relative-caret-position="169">
+              <caret line="365" column="17" lean-forward="false" selection-start-line="365" selection-start-column="17" selection-end-line="365" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -124,36 +123,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Red team starts</find>
-      <find>team starts</find>
-      <find>startingIndex</find>
-      <find>aStarSearch</find>
-      <find>consume</find>
-      <find>getDistanceProb</find>
-      <find>shorte</find>
-      <find>starter</find>
-      <find>self.index</find>
-      <find>index</find>
-      <find>isOver</find>
-      <find>retreating</find>
-      <find>getBlueTeamIndices</find>
-      <find>scaredtime</find>
-      <find>offen</find>
-      <find>enemy</find>
-      <find>invader</find>
       <find>timeout</find>
       <find>getMaxTotalTime</find>
       <find>expecti</find>
-      <find>asList</find>
       <find>scoreChange</find>
       <find>numReturned</find>
       <find>numcarr</find>
-      <find>numCarr</find>
       <find>InferenceAgent</find>
       <find>distancer</find>
       <find>chooseAction</find>
       <find>getAgentDistance</find>
       <find>numCarrying</find>
+      <find>food</find>
+      <find>ispacman</find>
+      <find>index</find>
+      <find>isPacman</find>
+      <find>numCarr</find>
+      <find>capsu</find>
+      <find>isRed</find>
+      <find>scaredtime</find>
+      <find>scaredTimes</find>
+      <find>pacmanEnemies</find>
+      <find>agents</find>
+      <find>agent</find>
+      <find>speed</find>
+      <find>evaluationFunction</find>
+      <find>maxFunction</find>
+      <find>getRedFood</find>
+      <find>getBlueFood</find>
+      <find>asList</find>
+      <find>getFood</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -163,9 +162,10 @@
         <option value="$PROJECT_DIR$/expectimax.py" />
         <option value="$PROJECT_DIR$/game.py" />
         <option value="$PROJECT_DIR$/myTeam.py" />
-        <option value="$PROJECT_DIR$/Ferdie.py" />
         <option value="$PROJECT_DIR$/capture.py" />
+        <option value="$PROJECT_DIR$/codename.txt" />
         <option value="$PROJECT_DIR$/testTeam.py" />
+        <option value="$PROJECT_DIR$/Ferdie.py" />
       </list>
     </option>
   </component>
@@ -182,7 +182,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="24" />
+    <option name="x" value="110" />
     <option name="y" value="23" />
     <option name="width" value="1412" />
     <option name="height" value="964" />
@@ -313,7 +313,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="24" y="23" width="1412" height="964" extended-state="0" />
+    <frame x="110" y="23" width="1412" height="964" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -357,14 +357,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generateTournamentLayouts.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -461,29 +453,11 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codename.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/baselineTeam.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
-          <caret line="99" column="15" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
+          <caret line="99" column="15" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ferdie.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1591">
-          <caret line="272" column="49" lean-forward="false" selection-start-line="272" selection-start-column="49" selection-end-line="272" selection-end-column="49" />
-          <folding>
-            <element signature="e#647#685#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -495,28 +469,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/capture.py">
+    <entry file="file://$PROJECT_DIR$/codename.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="120" column="12" lean-forward="false" selection-start-line="120" selection-start-column="9" selection-end-line="120" selection-end-column="12" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generateTournamentLayouts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/game.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="107" column="7" lean-forward="true" selection-start-line="107" selection-start-column="7" selection-end-line="107" selection-end-column="7" />
+        <state relative-caret-position="169">
+          <caret line="365" column="17" lean-forward="false" selection-start-line="365" selection-start-column="17" selection-end-line="365" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/capture.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="129" column="6" lean-forward="false" selection-start-line="129" selection-start-column="6" selection-end-line="129" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testTeam.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="268" column="24" lean-forward="false" selection-start-line="268" selection-start-column="24" selection-end-line="268" selection-end-column="24" />
+        <state relative-caret-position="1533">
+          <caret line="343" column="54" lean-forward="false" selection-start-line="343" selection-start-column="54" selection-end-line="343" selection-end-column="54" />
           <folding>
             <element signature="e#415#453#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ferdie.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="434" column="0" lean-forward="true" selection-start-line="434" selection-start-column="0" selection-end-line="434" selection-end-column="0" />
+          <folding>
+            <element signature="e#409#447#0" expanded="true" />
           </folding>
         </state>
       </provider>

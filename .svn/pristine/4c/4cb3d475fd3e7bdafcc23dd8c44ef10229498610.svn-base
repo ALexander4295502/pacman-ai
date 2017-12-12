@@ -151,7 +151,7 @@ class InferenceAgent(CaptureAgent):
             conf = game.Configuration(probablePosition, Directions.STOP)
             newState.data.agentStates[enemy] = game.AgentState(conf, newState.isRed(probablePosition) != newState.isOnRedTeam(enemy))
 
-        score, action = self.maxFunction(newState, depth=2)
+        action = self.maxFunction(newState, depth=2)[1]
 
         return action
 
@@ -268,11 +268,15 @@ class OffensiveAgent(InferenceAgent):
             if gameState.getAgentState(enemy).isPacman:
                 pacmanEnemies.append(enemy)
 
-        numOfSelfRemainingFood = self.getFood(gameState).asList(True)
-        numOfEnemyRemainingFood = len(self.getFoodYouAreDefending(gameState).asList(True))
+        if gameState.isRed:
+            selfRemainingFood = gameState.getRedFood
+            enemyRemainingFood = gameState.getBlueFood
+        else:
+            selfRemainingFood = gameState.getRedFood
+            enemyRemainingFood = gameState.getBlueFood
 
-        print numOfSelfRemainingFood
-        if numOfSelfRemainingFood > 5 or numOfEnemyRemainingFood < 5:
+
+        if selfRemainingFood > 5 or enemyRemainingFood < 5:
             self.retreating = False
         elif len(pacmanEnemies) > 1:
             self.retreating = True
@@ -336,7 +340,7 @@ class OffensiveAgent(InferenceAgent):
                            in self.enemies]
 
             # If they are scared be aggressive.
-            if min(scaredTimes) > 0 and minGhostDistances < 4:
+            if min(scaredTimes) <= 6 and minGhostDistances < 4:
                 minGhostDistances *= -1
 
             return 2 * self.getScore(gameState) - 100 * len(targetFood) - \
