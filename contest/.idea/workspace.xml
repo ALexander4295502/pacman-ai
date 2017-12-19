@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35bcc8f2-6bed-4f90-8f88-b28d846a5319" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Ferdie.py" afterPath="$PROJECT_DIR$/Ferdie.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mtclTeam.py" />
+      <change beforePath="$PROJECT_DIR$/anotherTeam.py" afterPath="$PROJECT_DIR$/anotherTeam.py" />
+      <change beforePath="$PROJECT_DIR$/codename.txt" afterPath="$PROJECT_DIR$/codename.txt" />
       <change beforePath="$PROJECT_DIR$/testTeam.py" afterPath="$PROJECT_DIR$/testTeam.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Ferdie.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Ferdie.py">
+      <file leaf-file-name="anotherTeam.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/anotherTeam.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="434" column="0" lean-forward="true" selection-start-line="434" selection-start-column="0" selection-end-line="434" selection-end-column="0" />
+            <state relative-caret-position="169">
+              <caret line="78" column="47" lean-forward="false" selection-start-line="78" selection-start-column="41" selection-end-line="78" selection-end-column="47" />
               <folding>
                 <element signature="e#409#447#0" expanded="true" />
               </folding>
@@ -39,8 +41,8 @@
       <file leaf-file-name="testTeam.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testTeam.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1533">
-              <caret line="343" column="54" lean-forward="false" selection-start-line="343" selection-start-column="54" selection-end-line="343" selection-end-column="54" />
+            <state relative-caret-position="333">
+              <caret line="263" column="0" lean-forward="true" selection-start-line="263" selection-start-column="0" selection-end-line="263" selection-end-column="0" />
               <folding>
                 <element signature="e#415#453#0" expanded="true" />
               </folding>
@@ -48,10 +50,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bracket.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bracket.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="mtclTeam.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mtclTeam.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="856">
+              <caret line="360" column="25" lean-forward="true" selection-start-line="360" selection-start-column="25" selection-end-line="360" selection-end-column="25" />
+              <folding>
+                <element signature="e#409#447#0" expanded="true" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
@@ -59,7 +66,17 @@
         <entry file="file://$PROJECT_DIR$/codename.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="8" />
+              <caret line="0" column="8" lean-forward="true" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="partners.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/partners.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -69,7 +86,7 @@
         <entry file="file://$PROJECT_DIR$/generateTournamentLayouts.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+              <caret line="12" column="3" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -95,13 +112,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="capture_the_flag2.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/capture_the_flag2.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="game.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/game.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -123,9 +133,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>timeout</find>
-      <find>getMaxTotalTime</find>
-      <find>expecti</find>
       <find>scoreChange</find>
       <find>numReturned</find>
       <find>numcarr</find>
@@ -138,7 +145,6 @@
       <find>ispacman</find>
       <find>index</find>
       <find>isPacman</find>
-      <find>numCarr</find>
       <find>capsu</find>
       <find>isRed</find>
       <find>scaredtime</find>
@@ -153,6 +159,10 @@
       <find>getBlueFood</find>
       <find>asList</find>
       <find>getFood</find>
+      <find>numCarr</find>
+      <find>TopAgent</find>
+      <find>Bottom</find>
+      <find>EvaluationBasedAgent</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -163,9 +173,11 @@
         <option value="$PROJECT_DIR$/game.py" />
         <option value="$PROJECT_DIR$/myTeam.py" />
         <option value="$PROJECT_DIR$/capture.py" />
-        <option value="$PROJECT_DIR$/codename.txt" />
         <option value="$PROJECT_DIR$/testTeam.py" />
         <option value="$PROJECT_DIR$/Ferdie.py" />
+        <option value="$PROJECT_DIR$/anotherTeam.py" />
+        <option value="$PROJECT_DIR$/mtclTeam.py" />
+        <option value="$PROJECT_DIR$/codename.txt" />
       </list>
     </option>
   </component>
@@ -469,18 +481,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codename.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/generateTournamentLayouts.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          <caret line="12" column="3" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -503,21 +507,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testTeam.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1533">
-          <caret line="343" column="54" lean-forward="false" selection-start-line="343" selection-start-column="54" selection-end-line="343" selection-end-column="54" />
+        <state relative-caret-position="333">
+          <caret line="263" column="0" lean-forward="true" selection-start-line="263" selection-start-column="0" selection-end-line="263" selection-end-column="0" />
           <folding>
             <element signature="e#415#453#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ferdie.py">
+    <entry file="file://$PROJECT_DIR$/anotherTeam.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="434" column="0" lean-forward="true" selection-start-line="434" selection-start-column="0" selection-end-line="434" selection-end-column="0" />
+        <state relative-caret-position="169">
+          <caret line="78" column="47" lean-forward="false" selection-start-line="78" selection-start-column="41" selection-end-line="78" selection-end-column="47" />
           <folding>
             <element signature="e#409#447#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mtclTeam.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="856">
+          <caret line="360" column="25" lean-forward="true" selection-start-line="360" selection-start-column="25" selection-end-line="360" selection-end-column="25" />
+          <folding>
+            <element signature="e#409#447#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codename.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="8" lean-forward="true" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partners.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
